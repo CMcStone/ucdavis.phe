@@ -183,6 +183,13 @@ a.read-more {
 #portal-siteactions li a:hover {
     color: #000000;
 }
+div.portletAssignments .managedPortletActions a, div.portletAssignments .managedPortletActions button {
+    background-color: transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0 0.25em;
+}
 
 /* Dark grey bg, white color*/
 dl.portlet dt,
