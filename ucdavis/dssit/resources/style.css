@@ -11,19 +11,19 @@ Released for free under a Creative Commons Attribution 2.5 License
 }*/
 /*column-one*/
 div.width-1\:4 {
-    width: 17.75%;
+    width: 16.75%;
 }
 /*column-content*/
 div.position-1\:4 {
-    margin-left: -78.875%;
+    margin-left: -79.875%;
 }
 div.width-1\:2 {
-    width: 57.75%;
+    width: 58.75%;
 }
 
 /*column-two*/
 div.position-3\:4 {
-    margin-left: -18.875%;
+    margin-left: -17.875%;
 }
 /*div.width-1\:4 {
     width: 17.75%;
@@ -195,8 +195,6 @@ a.read-more {
 	color:white !important;
 }
 #portal-searchbox {
-/*	margin-top: -20px; */
-/*	margin-right: 100px;*/
 	position: relative;
 	padding-right: 10px;
 	
