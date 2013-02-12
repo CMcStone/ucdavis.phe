@@ -195,8 +195,10 @@ a.read-more {
 	color:white !important;
 }
 #portal-searchbox {
-	margin-top: -20px;
-	margin-right: 100px;
+/*	margin-top: -20px; */
+/*	margin-right: 100px;*/
+	position: relative;
+	padding-right: 10px;
 	
 }
 /* red link hover */
