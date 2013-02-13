@@ -219,6 +219,7 @@ dl.portlet ul.navTree li a {
 border: none;
 display: block;
 line-height: 1.3;
+padding-bottom: .2em;
 zoom: 1;
 }
 
