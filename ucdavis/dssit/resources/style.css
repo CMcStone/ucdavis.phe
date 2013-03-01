@@ -252,6 +252,10 @@ dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
 color: white;
 
 }
+dt.portlet dt { 
+	padding-top:0.25em;
+	padding-bottom:0.25em;
+	}
 
 dt.portletHeader a:hover {
         color: #FFFFFF;
@@ -643,7 +647,7 @@ width: 100%;
 	/** LOGO */
 
 #logo {
-	padding-top: 5px;
+/*	padding-top: 5px; */
 	padding-bottom:5px;
 
 }
