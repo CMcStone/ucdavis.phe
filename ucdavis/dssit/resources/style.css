@@ -252,7 +252,7 @@ dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
 color: white;
 
 }
-dt.portlet dt { 
+dl.portlet dd { 
 	padding-top:0.25em;
 	padding-bottom:0.25em;
 	}
