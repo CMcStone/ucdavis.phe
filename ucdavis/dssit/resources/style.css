@@ -202,6 +202,9 @@ a.read-more {
 }
 /* red link hover */
 
+#content-core { 
+    padding-top: .5em;
+}
 #content a:visited {
     border-bottom: 0.1em solid #CCCCCC;
     color: #205C90;
@@ -294,9 +297,12 @@ body {
 
 h1, h2, h3 {
 	margin: 0;
-	text-transform: uppercase;
+	text-transform: none;
 	font-weight: normal;
+        letter-spacing: .03em;
 	color: #335379;
+	padding-top: .5em;
+	padding-bottom: .2em;
 }
 
 /*h1 { font-size: 44px; }
@@ -305,9 +311,11 @@ h2 { font-size: 18px; }
 
 h3 { }
 */
+p {padding-bottom: .2em}
 p, ul, ol {
 	margin-top: 0;
-	line-height: 150%;
+	line-height: 125%;
+/+        padding-bottom: .2em; */
 /*	text-align: justify; */
 }
 
@@ -582,7 +590,7 @@ padding-top: 20px;
 #content p, #content table, #content dl, dl.portlet p, dl.portlet {
 margin-bottom: 1em;
 width: 100%;
-background-color: white;
+/*background-color: white;*/
 }
 
 /* Sidebar */
