@@ -45,7 +45,7 @@ div.position-3\:4 {
 	}
 
 .header-bar {
-/*	height:90 px; */
+	height:85px; 
 	background:#fff; 
 /*	width:1000px; */
 	margin-top:0px;
@@ -643,7 +643,7 @@ width: 100%;
 	/** LOGO */
 
 #logo {
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 
 }
 
