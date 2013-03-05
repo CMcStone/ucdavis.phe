@@ -218,6 +218,12 @@ a.read-more {
     color: #FFFFFF;
 }
 
+.standalone-tweet {
+    padding: 8px 8px 0px;
+    background: none repeat scroll 0% 0% #EFE0B2;
+    border-radius: 5px 5px 5px 5px;
+}
+
 dl.portlet ul.navTree li a {
 border: none;
 display: block;

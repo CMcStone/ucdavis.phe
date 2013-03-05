@@ -18,10 +18,12 @@
     <prepend content="/html/head/link | /html/head/style " theme="/html/head"/>
     <!--before content='/html/head' theme='/html/head' /-->
 
-    <!-- Pull in Plone JS -->
+     <!-- Pull in Plone JS -->
 
     <after content="/html/head/script" theme="/html/head"/>
-   <!--searchbox -->
+    <!-- Google Analytics JavaScript -->
+   <after theme-children="/html/body" content="/html/body/div[@id='visual-portal-wrapper']/div/script" />
+     <!--searchbox -->
     <prepend content='//*[@id="portal-personaltools"]' theme='//*[@id="logo"]' />
     <prepend content='//*[@id="portal-searchbox"]' theme='//*[@id="logo"]' />
     
