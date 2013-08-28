@@ -1,0 +1,164 @@
+body {
+font-family: cambria, san-serif;
+background-color: rgb(23,43,84);
+margin-top: 0
+}
+
+a:link {
+color: rgb(255,182,18);
+}
+
+a:visited {
+color: rgb(255,182,18);
+}
+
+a:hover {
+color:white;
+}
+
+.nav {
+text-align:center;
+color: white;
+}
+
+.nav li{
+display:inline;
+}
+
+.nav a{
+margin-top: -10px;
+display:inline-block;
+padding:10px;
+}
+
+.header-cont {
+width:100%;
+position:0;
+top:0px;
+}
+
+.header {
+height:35px;
+background:rgb(23,43,84);
+width:100%;
+margin-top:0;
+text-decoration: none;
+
+}
+
+#ucdheader {
+height:160px;
+background:rgb(23,43,84);
+width:100%;
+margin-top:0;
+text-decoration: none;
+}
+
+#menu {
+	margin-top: 10px;
+}
+
+#contentbox {
+width: 960px;
+background: white;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+border-width: 10px; 
+border-style: auto;
+}
+
+
+#portal-column-content {
+	background: white;
+	width: 960px;
+}
+div.position-0 {
+margin-left: -100.00%;
+}
+#portal-globalnav {
+	height: 25px;
+clear: both;
+text-align: center;
+background: rgb(23,43,84);
+font-size: 100%;
+background: ;
+margin-left: auto;
+margin-right: auto;
+}
+#portal-globalnav li {
+
+}
+#portal-globalnav li a {
+    display: inline-block;
+    padding: 0.5em 1em 2em 1em;
+    background: rgb(23,43,84);
+    min-width: 6em;
+    white-space: normal;
+    /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
+    /*border-bottom: 0.1em solid White;*/
+    border-right: transparent;
+}
+
+#portal-globalnav .selected a, #portal-globalnav a:hover {
+    background: #7F93AE;
+    color: White;
+    padding-bottom: 1em;
+}
+
+#slideshow #slideshowWindow {
+	width:960px;
+	height:320px;
+	position:relative;
+	overflow:hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6px;
+}
+
+#slideshow #slideshowWindow .slide {
+	width:960px; 
+	height:320px;
+	float:left;
+	position:relative;
+}
+
+.banner {
+height: 145px;
+width: 960px;
+background-color: white;
+margin:20px auto;
+border-width: 5px; 
+border-style: outset;
+}
+
+.bannerimage {
+margin-top: 0px;
+margin-left: 0px;
+}
+
+.nonsans {
+font-family: times, serif;
+color: black;
+font-size: 13pt;
+margin-top:-10px;
+padding: 5px;
+}
+
+.maintext {
+font-family: futura, san-serif;
+font-size: 20pt;
+margin-top: -5px;
+padding-bottom: 5px;
+color: rgb(255,182,18);
+}
+#portal-footer {
+	background: rgb(23,43,84);
+	color: white;
+	text-align:center;
+}
+
+
+.adjust {
+margin-top: 0px;
+}

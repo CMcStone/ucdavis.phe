@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+							   
+		var currentPosition = 0;
+		var slideWidth = 960;
+		var slides = $('.slide');
+		var numberOfSlides = slides.length;
+		var slideShowInterval;
+		var speed = 5000;
+
+		
+		slideShowInterval = setInterval(changePosition, speed);
+		
+		slides.wrapAll('<div id="slidesHolder"></div>')
+		
+		slides.css({ 'float' : 'left' });
+		
+		$('#slidesHolder').css('width', slideWidth * numberOfSlides);
+		
+		
+		function changePosition() {
+			if(currentPosition == numberOfSlides - 1) {
+				currentPosition = 0;
+			} else {
+				currentPosition++;
+			}
+			moveSlide();
+		}
+		
+		
+		function moveSlide() {
+				$('#slidesHolder')
+				  .animate({'marginLeft' : slideWidth*(-currentPosition)});
+		}
+
+	});
+</script>
+<title>UC Davis Physical Education</title>
+
+</head>
+<body>
+
+
+<div id="header" style="background-color:rgb(255,182,18);">
+<h1 style="margin-top:0;margin-bottom:0" align="right"><FONT FACE="Berkeley Black">University of California, Davis</b></FONT></h1>
+</div>
+
+<div id="ucdheader" style="background-color:white;">
+<br>
+   <img src="images/finalweblogo.png" class="bannerimage" alt="Banner">
+<br>
+<br>
+</div>
+
+<div id="menu">
+<ul class="nav">
+<li><a href="pages/home/index.html" STYLE="text-decoration: none">Home</a></li>
+<li><a href="pages/about/index.html" STYLE="text-decoration: none">About</a></li>
+<li><a href="pages/classes/index.html" STYLE="text-decoration: none">Classes</a></li>
+<li><a href="pages/facilities/index.html" STYLE="text-decoration: none">Facilities</a></li>
+<li><a href="pages/staff/index.html" STYLE="text-decoration: none">Faculty & Staff</a></li>
+<li><a href="pages/faq/index.html" STYLE="text-decoration: none">FAQ</a></li>
+<li><a href="pages/contact/index.html" STYLE="text-decoration: none">Contact</a></li>
+<li><a href="http://cpcr.ucdavis.edu/gis/campusmaps/Centennial_campusmap_front.pdf"> Campus Map </a><li>
+
+</ul>
+</div>
+
+<div class="slideborder">
+<div class="adjust">
+<div id="slideshow">
+	
+</div>
+</div>
+</div>
+
+<div id="contentbox" class="content">
+<p class="maintext">
+<center class="maintext">General Information</center>
+</p>
+</br>
+
+
+<p class="nonsans">
+The Physical Education Program (PHE) at UC Davis is an academic unit in the Division of Social Sciences of the College of Letters and Science. PHE offers activities and lecture classes at the lower division, upper division, and professional level taught by an expert faculty which includes varsity coaches.
+</p>
+<p class="nonsans">
+Activities classes are intended to provide students an enjoyable format in which to acquire and advance skills in specific physical activities and sports and to develop an appreciation for health and wellness, and to promote the concept of lifetime fitness.
+</p>
+<p class="nonsans">
+PHE offers lecture classes in coaching methods and philosophy, the sociology of sports, health and drug education, water safety instruction, and the teaching of physical education in an elementary school setting.
+</p>
+<p class="nonsans">
+PHE provides many outreach, leadership, and field experience opportunities for students through internships and teaching opportunities in the local community.
+</p>
+
+<br>
+</div>
+
+
+<div id="footer">
+<center><FONT COLOR="white"><FONT SIZE="2px">Website created by <br>Bridget Berman (2014, Political Science, women's soccer), <br>Emily Irion (2014, Economics, women's soccer), Alli Kelly (2013, Design, women's soccer), 
+</center></FONT>
+</div>
+
+
+</body>     
+     
+</html>
