@@ -68,13 +68,14 @@ margin-right: auto;
 border-width: 10px; 
 border-style: auto;
 }
-
+#content-core {
+	padding-right: 5px;
+	padding-left: 5px;
+}
 
 #portal-column-content {
 	background: white;
 	width: 960px;
-	padding-left:5px;
-	padding-right:5px;
 }
 div.position-0 {
 margin-left: -100.00%;
