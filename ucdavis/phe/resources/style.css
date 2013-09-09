@@ -136,6 +136,17 @@ border-style: outset;
 margin-top: 0px;
 margin-left: 0px;
 }
+#content h1 {
+	color:rgb(255,182,18);
+}
+
+#content a.internal-link {
+	color: rgb(255,182,18);
+}
+#content a:hover,
+dl.portlet a:hover {
+    color: rgb(23,43,84) !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+}
 
 .nonsans {
 font-family: times, serif;
