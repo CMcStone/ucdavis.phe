@@ -1,16 +1,14 @@
 body {
+	font: 100% Futura, FreeSans, Arial, Sans-serif;
 font-family: cambria, san-serif;
 background-color: rgb(23,43,84);
-margin-top: 0
 }
 
-a:link {
-color: rgb(255,182,18);
+
+a:link, a:visited {
+color: #C99700;
 }
 
-a:visited {
-color: rgb(255,182,18);
-}
 
 a:hover {
 color:white;
@@ -58,6 +56,9 @@ text-decoration: none;
 	margin-top: 10px;
 }
 
+#page {
+	background-color: rgb(23,43,84);
+}
 #contentbox {
 width: 960px;
 background: white;
@@ -72,6 +73,8 @@ border-style: auto;
 #portal-column-content {
 	background: white;
 	width: 960px;
+	padding-left:5px;
+	padding-right:5px;
 }
 div.position-0 {
 margin-left: -100.00%;
@@ -137,15 +140,22 @@ margin-top: 0px;
 margin-left: 0px;
 }
 #content h1 {
-	color:rgb(255,182,18);
+	color:#C99700;
+}
+#content h1.documentFirstHeading {
+margin-top: 0;
+text-align:center;
 }
 
 #content a.internal-link {
-	color: rgb(255,182,18);
+	color: #C99700;
 }
+#content a.external-link {
+	color: #C99700;
+}	
 #content a:hover,
 dl.portlet a:hover {
-    color: rgb(23,43,84) !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+    color:#205c90 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
 }
 
 .nonsans {
