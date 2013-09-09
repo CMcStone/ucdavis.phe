@@ -6,7 +6,7 @@ version = '1.0'
 setup(name='ucdavis.phe',
       version=version,
       description="Diazo Template",
-      long_description=open("README.dss").read() + "\n" +
+      long_description=open("README.md").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
