@@ -98,7 +98,7 @@ margin-right: auto;
 }
 #portal-globalnav li a {
     display: inline-block;
-    padding: 0.5em 1em 2em 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     background: rgb(23,43,84);
     min-width: 6em;
     white-space: normal;
@@ -110,7 +110,7 @@ margin-right: auto;
 #portal-globalnav .selected a, #portal-globalnav a:hover {
     background: #7F93AE;
     color: White;
-    padding-bottom: 1em;
+   /-- padding-bottom: 1em; --/
 }
 
 #slideshow #slideshowWindow {
