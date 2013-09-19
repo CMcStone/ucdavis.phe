@@ -56,6 +56,9 @@ text-decoration: none;
 	margin-top: 10px;
 }
 
+#portal-breadcrumbs a:hover {
+         color: rgb(23,43,84);	
+}
 #page {
 	background-color: rgb(23,43,84);
 }
