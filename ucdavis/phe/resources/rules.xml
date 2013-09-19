@@ -72,13 +72,14 @@ css:content="#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e4865616
     <!--drop attributes="class" css:content="#portal-column-content"/-->
     <!-- Drop Sidebar -->
     <drop theme='//*[@id="sidebar"]' />
+     <drop theme='//*[@id="slideborder"]' />
     <!-- Drop global navigation menu's class-->
     <!--drop attributes="class" css:content="#portal-column-one"/-->
-    <copy content='//*[@id="portal-footer-wrapper"]' theme='//*[@id="footer"]' />
-    <!--replace theme='//*[id="footer"]' content='//*[@id="portal-footer"]' /-->
+    <!--copy content='//*[@id="portal-footer-wrapper"]' theme='//*[@id="footer"]' /-->
+    <replace theme='//*[@id="footer"]' content='//*[@id="portal-footer-wrapper"]' />
     <!--copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' /-->
 	<!--copy attributes="href title" css:content='#portal-logo' css:theme='#logo h1 a' /-->
-	<drop content='//*[@id="portal-colophon"]' />
+	<!--replace content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' /-->
     
     
     <drop theme='//*[@id="slogan"]' />
